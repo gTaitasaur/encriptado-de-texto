@@ -29,7 +29,7 @@ body{
 
 header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 main{
@@ -37,18 +37,16 @@ main{
     flex-direction: column;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-}
- textarea{
+textarea{
     background-color: var(--bg-color);
     border: none;
     outline: none;
     resize: none;
  }
-section .txt-aside{
-    display: none;
+
+aside .aside-box{
+    display: flex;
+    flex-direction: column;
 }
 
 ::placeholder{
